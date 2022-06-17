@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# script that prints messagges
 number=1
 while [ $number -lt 21 ]
 do
