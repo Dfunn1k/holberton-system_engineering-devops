@@ -3,7 +3,7 @@
 number=0
 while [ $number -lt 11 ]
 do
-		if [ $number != 8 ]
+		if [ $number != 9 ]
 		then
 			echo "Best School"
 		else
