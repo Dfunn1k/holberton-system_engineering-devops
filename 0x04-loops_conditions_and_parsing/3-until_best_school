@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script that print "best school" with while
+number=0
+until [ $number -ge 10 ]
+do
+		echo "Best School"
+		number=$(( number+1 ))
+done
