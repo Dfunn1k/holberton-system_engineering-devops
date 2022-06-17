@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# script that print "best school" with while
+number=1
+while [ $number -le 10 ]
+do
+		if [ $number == 4 ]
+		then
+			echo "bad luck"
+		elif [ $number == 8 ]
+		then
+			echo "good luck"
+		else
+			echo "Best School"
+		fi
+		number=$(( number+1 ))
+done
