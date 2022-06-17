@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# script that print "best school" with while
+number=0
+while [ $number -lt 10 ]
+do
+		if [ $number != 8 ]
+		then
+			echo "Best School"
+		else
+			echo "Hi"
+		fi
+		number=$(( number+1 ))
+done
