@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays:
+# The content of the current directory
+# In a list format
+for ITEMS in *
+do
+	echo "$ITEMS" | rev | cut -d '-' -f1 | rev
+done
